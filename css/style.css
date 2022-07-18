@@ -8,7 +8,5 @@
 }
 
 #morpion-container .case {
-  border: solid 1px black;
-  text-align: center;
-  vertical-align: center;
+  border: solid 1px var(--bs-dark);
 }
