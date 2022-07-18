@@ -1,0 +1,14 @@
+#morpion-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
+  width: 500px;
+  height: 500px;
+}
+
+#morpion-container .case {
+  border: solid 1px black;
+  text-align: center;
+  vertical-align: center;
+}
